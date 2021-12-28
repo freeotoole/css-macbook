@@ -1,0 +1,35 @@
+{
+  "name": "css-macbook",
+  "version": "1.0.0",
+  "description": "CSS only macbook for displaying screenshots",
+  "main": "dist/css-macbook.umd.js",
+  "module": "dist/css-macbook.esm.js",
+  "unpkg": "dist/css-macbook.min.js",
+  "scripts": {
+    
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/css-macbook.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/css-macbook.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/css-macbook.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Constructive-Procrastination/css-macbook.git"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "author": "Free O'Toole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Constructive-Procrastination/css-macbook/issues"
+  },
+  "homepage": "https://github.com/Constructive-Procrastination/css-macbook#readme",
+  "devDependencies": {
+    "rollup": "^2.56.3",
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "rollup-plugin-vue": "^5.1.9"
+  }
+}
