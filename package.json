@@ -1,6 +1,6 @@
 {
   "name": "css-macbook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSS only macbook for displaying screenshots",
   "main": "dist/css-macbook.umd.js",
   "module": "dist/css-macbook.esm.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Constructive-Procrastination/css-macbook.git"
+    "url": "git@github.com/freeotoole/css-macbook.git"
   },
   "files": [
     "dist/*"
@@ -23,9 +23,9 @@
   "author": "Free O'Toole",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Constructive-Procrastination/css-macbook/issues"
+    "url": "https://github.com/freeotoole/css-macbook/issues"
   },
-  "homepage": "https://github.com/Constructive-Procrastination/css-macbook#readme",
+  "homepage": "https://github.com/freeotoole/css-macbook#readme",
   "devDependencies": {
     "rollup": "^2.56.3",
     "@rollup/plugin-buble": "^0.21.3",
